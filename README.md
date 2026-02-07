@@ -14,7 +14,7 @@
 ## 🔗 Quick Links
 
 ### 🔴 [**View Live Website**](https://grow-my-therapy-frontend-assignment-6l8z7m4ge.vercel.app/)
-### 📺 [**Watch Video Walkthrough**](REPLACE_WITH_YOUR_LOOM_LINK)
+### 📺 [**Watch Video Walkthrough**](https://www.loom.com/share/1fd6c465323542ccbb5910bb9b886af0)
 
 ---
 
