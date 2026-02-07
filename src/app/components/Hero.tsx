@@ -2,13 +2,13 @@ import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section id="hero" className="pt-32 pb-20 px-6 lg:px-8 bg-[var(--color-soft-white)]">
+    <section id="hero" className="pt-32 pb-20 px-6 lg:px-8 bg-[var(--color-cream)]">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Side - Content */}
           <div className="space-y-8">
             <h1 
-              className="text-6xl md:text-7xl lg:text-8xl text-[var(--color-deep-slate)] leading-tight"
+              className="text-6xl md:text-7xl lg:text-8xl text-[var(--color-deep-sage)] leading-tight"
               style={{ fontFamily: 'var(--font-serif)' }}
             >
               Heal, Grow, Thrive
@@ -22,14 +22,14 @@ export function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
-                className="px-8 py-4 bg-[var(--color-slate-blue)] text-white rounded-full hover:bg-[var(--color-deep-slate)] transition-colors flex items-center justify-center gap-2 group"
+                className="px-8 py-4 bg-[var(--color-sage-green)] text-white rounded-full hover:bg-[var(--color-deep-sage)] transition-colors flex items-center justify-center gap-2 group"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Start Your Journey
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               <button 
-                className="px-8 py-4 border-2 border-[var(--color-slate-blue)] text-[var(--color-slate-blue)] rounded-full hover:bg-[var(--color-slate-blue)] hover:text-white transition-colors"
+                className="px-8 py-4 border-2 border-[var(--color-sage-green)] text-[var(--color-sage-green)] rounded-full hover:bg-[var(--color-sage-green)] hover:text-white transition-colors"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Learn More
@@ -47,7 +47,7 @@ export function Hero() {
               />
             </div>
             {/* Decorative element */}
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-[var(--color-warm-linen)] rounded-3xl -z-10"></div>
+            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-[var(--color-warm-beige)] rounded-3xl -z-10"></div>
           </div>
         </div>
       </div>

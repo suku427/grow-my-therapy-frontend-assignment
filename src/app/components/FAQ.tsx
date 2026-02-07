@@ -29,7 +29,7 @@ export function FAQ() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 
-            className="text-5xl md:text-6xl text-[var(--color-deep-slate)]"
+            className="text-5xl md:text-6xl text-[var(--color-deep-sage)]"
             style={{ fontFamily: 'var(--font-serif)' }}
           >
             Frequently Asked Questions
@@ -47,23 +47,23 @@ export function FAQ() {
           {faqs.map((faq, index) => (
             <div 
               key={index}
-              className="border border-[var(--color-warm-linen)] rounded-2xl overflow-hidden bg-white"
+              className="border border-[var(--color-warm-beige)] rounded-2xl overflow-hidden bg-white"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-8 py-6 flex items-center justify-between text-left hover:bg-[var(--color-soft-white)] transition-colors"
+                className="w-full px-8 py-6 flex items-center justify-between text-left hover:bg-[var(--color-cream)] transition-colors"
               >
                 <span 
-                  className="text-xl text-[var(--color-deep-slate)]"
+                  className="text-xl text-[var(--color-deep-sage)]"
                   style={{ fontFamily: 'var(--font-serif)' }}
                 >
                   {faq.question}
                 </span>
                 <div className="flex-shrink-0 ml-4">
                   {openIndex === index ? (
-                    <Minus className="w-6 h-6 text-[var(--color-slate-blue)]" />
+                    <Minus className="w-6 h-6 text-[var(--color-sage-green)]" />
                   ) : (
-                    <Plus className="w-6 h-6 text-[var(--color-slate-blue)]" />
+                    <Plus className="w-6 h-6 text-[var(--color-sage-green)]" />
                   )}
                 </div>
               </button>

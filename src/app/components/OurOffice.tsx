@@ -1,12 +1,12 @@
 export function OurOffice() {
   return (
-    <section className="py-24 px-6 lg:px-8 bg-[var(--color-warm-linen)]">
+    <section className="py-24 px-6 lg:px-8 bg-[var(--color-warm-beige)]">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left Side - Content */}
           <div className="space-y-6">
             <h2 
-              className="text-5xl md:text-6xl text-[var(--color-deep-slate)] leading-tight"
+              className="text-5xl md:text-6xl text-[var(--color-deep-sage)] leading-tight"
               style={{ fontFamily: 'var(--font-serif)' }}
             >
               A Safe Space for You

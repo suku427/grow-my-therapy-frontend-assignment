@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function About() {
   return (
-    <section id="about" className="py-24 px-6 lg:px-8 bg-[var(--color-soft-white)]">
+    <section id="about" className="py-24 px-6 lg:px-8 bg-[var(--color-cream)]">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left Side - Image */}
@@ -15,13 +15,13 @@ export function About() {
               />
             </div>
             {/* Decorative element */}
-            <div className="absolute -top-6 -left-6 w-40 h-40 bg-[var(--color-dusty-rose)] rounded-3xl -z-10"></div>
+            <div className="absolute -top-6 -left-6 w-40 h-40 bg-[var(--color-soft-terracotta)] rounded-3xl -z-10"></div>
           </div>
 
           {/* Right Side - Content */}
           <div className="space-y-6 order-1 md:order-2">
             <h2 
-              className="text-5xl md:text-6xl text-[var(--color-deep-slate)] leading-tight"
+              className="text-5xl md:text-6xl text-[var(--color-deep-sage)] leading-tight"
               style={{ fontFamily: 'var(--font-serif)' }}
             >
               Meet Dr. Maya
@@ -47,7 +47,7 @@ export function About() {
               </p>
             </div>
             <button 
-              className="text-[var(--color-slate-blue)] hover:text-[var(--color-deep-slate)] flex items-center gap-2 group transition-colors"
+              className="text-[var(--color-sage-green)] hover:text-[var(--color-deep-sage)] flex items-center gap-2 group transition-colors"
               style={{ fontFamily: 'var(--font-sans)' }}
             >
               Read More

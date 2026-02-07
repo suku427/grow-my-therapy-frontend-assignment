@@ -9,7 +9,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="py-16 px-6 lg:px-8 bg-[var(--color-deep-slate)] text-white">
+    <footer className="py-16 px-6 lg:px-8 bg-[var(--color-deep-sage)] text-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Column 1 - Logo & Bio */}
@@ -21,7 +21,7 @@ export function Footer() {
               Dr. Maya Reynolds
             </h3>
             <p 
-              className="text-[var(--color-light-blue)] text-sm leading-relaxed"
+              className="text-[var(--color-light-sage)] text-sm leading-relaxed"
               style={{ fontFamily: 'var(--font-sans)' }}
             >
               Compassionate therapy for healing, growth, and emotional well-being. 
@@ -40,28 +40,28 @@ export function Footer() {
             <nav className="flex flex-col gap-2">
               <button 
                 onClick={() => scrollToSection('hero')}
-                className="text-[var(--color-light-blue)] hover:text-white transition-colors text-left text-sm"
+                className="text-[var(--color-light-sage)] hover:text-white transition-colors text-left text-sm"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Home
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-[var(--color-light-blue)] hover:text-white transition-colors text-left text-sm"
+                className="text-[var(--color-light-sage)] hover:text-white transition-colors text-left text-sm"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-[var(--color-light-blue)] hover:text-white transition-colors text-left text-sm"
+                className="text-[var(--color-light-sage)] hover:text-white transition-colors text-left text-sm"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('faq')}
-                className="text-[var(--color-light-blue)] hover:text-white transition-colors text-left text-sm"
+                className="text-[var(--color-light-sage)] hover:text-white transition-colors text-left text-sm"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 FAQ
@@ -79,27 +79,27 @@ export function Footer() {
             </h4>
             <div className="flex flex-col gap-3">
               <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-blue)]" />
+                <Phone className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-sage)]" />
                 <span 
-                  className="text-sm text-[var(--color-light-blue)]"
+                  className="text-sm text-[var(--color-light-sage)]"
                   style={{ fontFamily: 'var(--font-sans)' }}
                 >
                   (555) 123-4567
                 </span>
               </div>
               <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-blue)]" />
+                <Mail className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-sage)]" />
                 <span 
-                  className="text-sm text-[var(--color-light-blue)]"
+                  className="text-sm text-[var(--color-light-sage)]"
                   style={{ fontFamily: 'var(--font-sans)' }}
                 >
                   hello@drmayareynolds.com
                 </span>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-blue)]" />
+                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-light-sage)]" />
                 <span 
-                  className="text-sm text-[var(--color-light-blue)]"
+                  className="text-sm text-[var(--color-light-sage)]"
                   style={{ fontFamily: 'var(--font-sans)' }}
                 >
                   123 Wellness Avenue<br />
@@ -120,21 +120,21 @@ export function Footer() {
             <div className="flex gap-4">
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-[var(--color-slate-blue)] flex items-center justify-center hover:bg-[var(--color-light-blue)] transition-colors"
+                className="w-10 h-10 rounded-full bg-[var(--color-sage-green)] flex items-center justify-center hover:bg-[var(--color-light-sage)] transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-[var(--color-slate-blue)] flex items-center justify-center hover:bg-[var(--color-light-blue)] transition-colors"
+                className="w-10 h-10 rounded-full bg-[var(--color-sage-green)] flex items-center justify-center hover:bg-[var(--color-light-sage)] transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-[var(--color-slate-blue)] flex items-center justify-center hover:bg-[var(--color-light-blue)] transition-colors"
+                className="w-10 h-10 rounded-full bg-[var(--color-sage-green)] flex items-center justify-center hover:bg-[var(--color-light-sage)] transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
@@ -144,10 +144,10 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[var(--color-slate-blue)]">
+        <div className="pt-8 border-t border-[var(--color-sage-green)]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p 
-              className="text-sm text-[var(--color-light-blue)]"
+              className="text-sm text-[var(--color-light-sage)]"
               style={{ fontFamily: 'var(--font-sans)' }}
             >
               © 2026 Dr. Maya Reynolds. All rights reserved.
@@ -155,14 +155,14 @@ export function Footer() {
             <div className="flex gap-6">
               <a 
                 href="#" 
-                className="text-sm text-[var(--color-light-blue)] hover:text-white transition-colors"
+                className="text-sm text-[var(--color-light-sage)] hover:text-white transition-colors"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Privacy Policy
               </a>
               <a 
                 href="#" 
-                className="text-sm text-[var(--color-light-blue)] hover:text-white transition-colors"
+                className="text-sm text-[var(--color-light-sage)] hover:text-white transition-colors"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
                 Terms of Service

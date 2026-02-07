@@ -1,37 +1,37 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Calming Therapy Palette - Soft Blues & Warm Neutrals */
-  --color-slate-blue: #7B8FA3;
-  --color-deep-slate: #5A6B7D;
-  --color-light-blue: #A4B5C4;
-  --color-warm-linen: #EDE8E0;
-  --color-dusty-rose: #C19A9A;
-  --color-soft-white: #F8F7F5;
+  /* Sage Green & Warm Beige Palette - Therapy Theme */
+  --color-sage-green: #8B9A7E;
+  --color-deep-sage: #5F6D57;
+  --color-light-sage: #A8B69C;
+  --color-warm-beige: #E8DCC7;
+  --color-soft-terracotta: #C98A76;
+  --color-cream: #FAF8F5;
   --color-off-white: #FFFFFF;
-  --color-text-primary: #3A4147;
-  --color-text-secondary: #6B7480;
+  --color-text-primary: #2C3E2F;
+  --color-text-secondary: #6B7C6E;
   
   /* Font families */
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Manrope', sans-serif;
   
   --font-size: 16px;
-  --background: var(--color-soft-white);
+  --background: var(--color-cream);
   --foreground: var(--color-text-primary);
-  --card: var(--color-soft-white);
+  --card: var(--color-cream);
   --card-foreground: var(--color-text-primary);
-  --popover: var(--color-soft-white);
+  --popover: var(--color-cream);
   --popover-foreground: var(--color-text-primary);
-  --primary: var(--color-slate-blue);
+  --primary: var(--color-sage-green);
   --primary-foreground: var(--color-off-white);
-  --secondary: var(--color-warm-linen);
+  --secondary: var(--color-warm-beige);
   --secondary-foreground: var(--color-text-primary);
-  --muted: var(--color-light-blue);
+  --muted: var(--color-light-sage);
   --muted-foreground: var(--color-text-secondary);
-  --accent: var(--color-dusty-rose);
+  --accent: var(--color-soft-terracotta);
   --accent-foreground: var(--color-off-white);
-  --destructive: var(--color-deep-slate);
+  --destructive: var(--color-deep-sage);
   --destructive-foreground: var(--color-off-white);
   --border: rgba(0, 0, 0, 0.1);
   --input: transparent;

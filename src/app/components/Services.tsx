@@ -25,7 +25,7 @@ export function Services() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 
-            className="text-5xl md:text-6xl text-[var(--color-deep-slate)]"
+            className="text-5xl md:text-6xl text-[var(--color-deep-sage)]"
             style={{ fontFamily: 'var(--font-serif)' }}
           >
             Services
@@ -43,13 +43,13 @@ export function Services() {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="p-8 bg-[var(--color-warm-linen)] rounded-2xl hover:shadow-lg transition-shadow space-y-4"
+              className="p-8 bg-[var(--color-warm-beige)] rounded-2xl hover:shadow-lg transition-shadow space-y-4"
             >
-              <div className="w-14 h-14 bg-[var(--color-slate-blue)] rounded-full flex items-center justify-center">
+              <div className="w-14 h-14 bg-[var(--color-sage-green)] rounded-full flex items-center justify-center">
                 <service.icon className="w-7 h-7 text-white" />
               </div>
               <h3 
-                className="text-2xl text-[var(--color-deep-slate)]"
+                className="text-2xl text-[var(--color-deep-sage)]"
                 style={{ fontFamily: 'var(--font-serif)' }}
               >
                 {service.title}
