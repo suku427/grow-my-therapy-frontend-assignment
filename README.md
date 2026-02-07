@@ -9,7 +9,7 @@
 > A responsive redesign of the *Lilac* Squarespace template, tailored for Dr. Maya Reynolds.
 
 ## 🚀 Live Demo
-**[👉 View Live Website on Vercel](YOUR_VERCEL_LINK_HERE)**
+**[👉 View Live Website on Vercel](https://grow-my-therapy-frontend-assignment-6l8z7m4ge.vercel.app/)**
 
 ---
 
